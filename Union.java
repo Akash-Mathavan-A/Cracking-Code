@@ -1,10 +1,12 @@
 import java.util.*;
 
 public class Union{
+    
     /*
-     * Given two arrays arr1[] and arr2[], 
+     * Given two sorted array nums1[] and nums2[], 
      * the task is to  union of the elements in the two arrays.
      */
+    
     public static void main(String[] args){
         int[] nums1 = {1,2,3,4,5};
         int[] nums2 = {1,2,2,2,2};
