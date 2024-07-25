@@ -17,10 +17,6 @@ public class UnionElements {
     }
 
     public static int ElementsCount(int[] nums1 , int[] nums2){
-        
-        /* Time Complexity : O(n + m)
-           Space Complexity : O(n + m)*/
-
         HashSet<Integer> unionSet = new HashSet<>();
 
         for(int key : nums1){
